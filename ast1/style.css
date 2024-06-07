@@ -1,0 +1,29 @@
+body{
+    height: 100vh;
+}
+
+.main-container{
+    height: 100%;
+    width: 100%;
+    padding: 4rem;
+}
+
+.ball-container{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    outline: 1px solid purple;
+
+
+
+}
+.ball{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: turquoise;
+    border-radius: 50%;
+
+}

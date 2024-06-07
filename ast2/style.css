@@ -1,0 +1,36 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    padding: 10rem 0rem;
+    background-color: black;
+}
+
+.image-carousel{
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    outline: 1px solid blue;
+}
+.image-carousel__img-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    outline: 2px solid orange;
+    overflow: hidden;
+    
+}
+.image-carousel__img{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+
+    outline: 1px solid aqua;
+}
